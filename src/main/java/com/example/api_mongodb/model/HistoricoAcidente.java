@@ -1,16 +1,7 @@
 package com.example.api_mongodb.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 import java.util.Date;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 public class HistoricoAcidente {
     private Date dataAcidente;
     private String tipoAcidente;
