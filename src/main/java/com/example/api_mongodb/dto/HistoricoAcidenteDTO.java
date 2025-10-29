@@ -1,4 +1,4 @@
-package com.example.api_mongodb.model;
+package com.example.api_mongodb.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +11,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class HistoricoAcidente {
+public class HistoricoAcidenteDTO {
     private Date dataAcidente;
     private String tipoAcidente;
     private String gravidade;
